@@ -1,0 +1,25 @@
+{
+  "name": "proyectohcy",
+  "version": "1.0.0",
+  "description": "proyecto 3era entrega",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss Sass/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjmlz3/HoyCocinoYoClon.git"
+  },
+  "author": "Guillermo Javier Marincic Layerenza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gjmlz3/HoyCocinoYoClon/issues"
+  },
+  "homepage": "https://github.com/gjmlz3/HoyCocinoYoClon#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
