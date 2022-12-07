@@ -4,17 +4,17 @@
   padding: 0;
   box-sizing: border-box; }
 
-header {
-  position: sticky;
-  top: 0;
-  z-index: 10; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 body {
   color: white; }
 
 .divVideoFondo {
   position: fixed;
-  background-color: black;
+  background-color: #000;
   min-width: 100%;
   min-height: 100%;
   top: 50%;
@@ -166,7 +166,7 @@ body {
   background-color: #ffc24794;
   border-color: #ffc24794; }
   .botonPrimario:hover {
-    color: #fff;
+    color: white;
     background-color: #ffc24794;
     border-color: #ffc24794; }
 
@@ -230,4 +230,4 @@ p {
     font-size: 3.5rem; }
   .divVideoFondo video {
     display: block;
-    background-color: black; } }
+    background-color: #000; } }

@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+	.carousel-caption {
+		p {
+			margin-bottom: 1.25rem;
+			font-size: 1.25rem;
+			line-height: 1.4;
+		}
+	}
+	.featurette-heading {
+		font-size: 50px;
+		margin-top: 7rem;
+	}
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+	.divVideoFondo {
+		video {
+			display: block;
+			background-color: $colorOscuro;
+		}
+	}
+}
