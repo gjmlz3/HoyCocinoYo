@@ -2,16 +2,19 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; }
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; }
 
 body {
   color: white; }
 
+/*video de fondo de la pagina, en version mobile desaparece*/
 .divVideoFondo {
   position: fixed;
   background-color: #000;
@@ -25,6 +28,7 @@ body {
   .divVideoFondo video {
     display: none; }
 
+/*carrusel que se mueve solo*/
 .carousel {
   margin-bottom: 4rem; }
 
@@ -69,12 +73,13 @@ body {
   line-height: 1;
   letter-spacing: -.05rem; }
 
+/*animacion pagina menu, galeria*/
 .filtro {
   filter: brightness(50%); }
 
 .imgHover {
   transition: all 2s;
-  z-index: -1; }
+  z-index: 1; }
   .imgHover:hover {
     filter: brightness(100%);
     transform: scale(1.5);
@@ -98,6 +103,9 @@ body {
 .bgNegro {
   background-color: #000; }
 
+.negro {
+  color: #000; }
+
 .bgBotonAmarillo {
   background-color: #ffc24794; }
 
@@ -117,10 +125,12 @@ body {
   border: 1px solid #ffc24794;
   border-radius: 1rem;
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  position: relative; }
 
 .bordeFotoGaleria {
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  position: relative; }
 
 .fuentePeque {
   font-size: 1rem;
@@ -128,7 +138,7 @@ body {
 
 .fuenteLogo {
   color: white;
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 .fuenteCarrusel {
   font-size: 2rem;
@@ -145,7 +155,7 @@ body {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: white;
+  color: #ffc24794;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -162,18 +172,13 @@ body {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
 .botonPrimario {
-  color: white;
+  color: #ffc24794;
   background-color: #ffc24794;
   border-color: #ffc24794; }
   .botonPrimario:hover {
     color: white;
     background-color: #ffc24794;
     border-color: #ffc24794; }
-
-.formCenter {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
 .iconForm {
   font-size: 1.5rem;
