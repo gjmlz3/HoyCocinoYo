@@ -129,16 +129,16 @@ body {
 	position: relative;
 }
 .fuentePeque {
-	font-size: $fuentePeque;
   color: $colorFuente;
+  font-size: $fuentePeque;
 }
 .fuenteLogo {
-	color: $colorFuente;
-  font-size: $fuenteNormal;
+	@extend .fuentePeque;
+    font-size: $fuenteNormal;
 }
 .fuenteCarrusel {
+	@extend .fuentePeque;
 	font-size: $fuenteGrande;
-  color: $colorFuente;
 }
 .fuenteCursiva {
 	font-style: italic;

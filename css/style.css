@@ -132,17 +132,15 @@ body {
   border-radius: 1rem;
   position: relative; }
 
-.fuentePeque {
-  font-size: 1rem;
-  color: white; }
+.fuentePeque, .fuenteLogo, .fuenteCarrusel {
+  color: white;
+  font-size: 1rem; }
 
 .fuenteLogo {
-  color: white;
   font-size: 1.5rem; }
 
 .fuenteCarrusel {
-  font-size: 2rem;
-  color: white; }
+  font-size: 2rem; }
 
 .fuenteCursiva {
   font-style: italic; }
