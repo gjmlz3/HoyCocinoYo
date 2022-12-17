@@ -1,15 +1,17 @@
-$colorPrimario    : #ffc24794;
-$colorSecundario  : #ff4;
-$colorOscuro      : #000;
-$colorFuente      : white;
-$colorBlur        : rgba(0, 0, 0, 0.527);
-$colorTrans       : transparent;
 $fuentePeque      : 1rem;
 $fuenteNormal     : 1.5rem;
 $fuenteGrande     : 2rem;
 $fuenteExtra      : 3rem;
-$fuentePrimaria: 'Open Sans', sans-serif;
+$fuentePrimaria   : 'Open Sans', sans-serif;
+
+$colores: (
+colorPrimario    : #ffc24794,
+colorOscuro      : #000,
+colorFuente      : white,
+colorBlur        : rgba(0, 0, 0, 0.527),
+colorTrans       : transparent,
+);
 
 @mixin ColorTexto {
-    color: $colorFuente;
+    color: map-get($colores , colorFuente);
 }

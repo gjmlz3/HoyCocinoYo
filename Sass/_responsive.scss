@@ -16,7 +16,43 @@
 	.divVideoFondo {
 		video {
 			display: block;
-			background-color: $colorOscuro;
+			background-color: map-get($colores , colorOscuro);
 		}
 	}
+	
 }
+/**responsive de la galeria **/
+@media (max-width: 768px){
+
+	.imgHover {
+		&:hover {
+		filter: brightness(100%);
+		transform: none;
+		z-index: 1;
+		overflow: hidden;
+		cursor: none;
+		align-self: center;
+			
+	}
+	}
+
+}
+/**responsive de del mapa **/
+.mapResponsive{
+
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+	iframe{
+
+		left:0;	
+		top:0;	
+		height:100%;	
+		width:100%;	
+		position:absolute;
+	
+	}
+}
+
